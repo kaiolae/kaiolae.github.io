@@ -65,4 +65,6 @@ In order to succesfully run the code examples from this tutorial, please install
 * The python packages [numpy, matplotlib and pandas](https://scipy.org/install.html).
 * The [scikit-learn](http://scikit-learn.org/stable/install.html) library.
 
+Alternatively, you can use [Anaconda](https://www.anaconda.com/) to create isolated environments and install all the required libraries including python itself without interfering with previous installations. 
+
 To test if your setup is working, you can try running our code samples at [TODO: Insert link]
