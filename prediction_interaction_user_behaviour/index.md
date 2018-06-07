@@ -43,7 +43,7 @@ The session schedule will be as follows:
 
 The session material (iPython notebooks), data, and system requirements will be published on a tutorial website prior to the conference so that attendees can set up their systems if they wish. 
 
-### Outline of Covered Material:
+### Outline of Covered Material
 This tutorial will focus on applications of predictive ML techniques to user interaction data. Prediction could be said to be the generation of unknown data from current and previous sensor data. In user interaction, we generally deal with sequences of data, but the predictions can relate to future elements of the sequence (forecasting) or a present, but unknown sequence (classification or segmentation). Models for making these predictions can operate using just the present sample (non-temporal models) or using a history of previous knowledge (temporal models).
 
 ![]({{ site.baseurl }}/assets/predictive-models-overview.png)
@@ -54,3 +54,14 @@ To choose which model to apply, we will briefly demonstrate exploratory data ana
 Our first application area will be prediction of activity states, such as walking, running or sitting, from activity data, such as accelerometer readings from a smartphone. This can be accomplished with a classical ML classifier such as Random Forests, one of the simplest models in ML. We will use Python’s Scikit-Learn library to train a classifier (e.g., Random Forests) and do an evaluation of our results. We will show how such a classifier might be integrated into an IoT or smart home environment.
 
 Our second application will be in interactive music and creative ML systems. RNNs, a popular temporal DNN model, have been very successfully applied to sequences of musical notes. In this configuration, they predict the next note in a sequence in order to compose new music. These models can easily be applied to any corpus of categorical sequential data, and in particular, strings of text using a simple character-level RNN architecture. This system can be applied to many creative and fun problems, for instance, generating Star Trek episode titles.  We will demonstrate RNNs using Keras, a high-level library for specifying and training deep learning models. We will show how a model of musical sequences can be used in a smartphone app to generate potential responses from other participants in a musical ensemble.
+
+
+### Required Software
+
+In order to succesfully run the code examples from this tutorial, please install the following software:
+
+* [Jupyter Notebooks](http://jupyter.org/install) and [Python 3](https://www.python.org/downloads/)
+* The latest versions of [Keras](https://keras.io/#installation), including one of Keras' backends, such as [TensorFlow](https://www.tensorflow.org/install/).
+* The python packages [numpy, matplotlib and pandas](https://scipy.org/install.html).
+
+To test if your setup is working, you can try running our code samples at [TODO: Insert link]
