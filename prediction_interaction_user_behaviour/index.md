@@ -63,5 +63,6 @@ In order to succesfully run the code examples from this tutorial, please install
 * [Jupyter Notebooks](http://jupyter.org/install) and [Python 3](https://www.python.org/downloads/)
 * The latest versions of [Keras](https://keras.io/#installation), including one of Keras' backends, such as [TensorFlow](https://www.tensorflow.org/install/).
 * The python packages [numpy, matplotlib and pandas](https://scipy.org/install.html).
+* The [scikit-learn](http://scikit-learn.org/stable/install.html) library.
 
 To test if your setup is working, you can try running our code samples at [TODO: Insert link]
