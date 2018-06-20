@@ -63,7 +63,7 @@ In order to succesfully run the code examples from this tutorial, please install
 * [Jupyter Notebooks](http://jupyter.org/install) and [Python 3](https://www.python.org/downloads/)
 * The latest versions of [Keras](https://keras.io/#installation), including one of Keras' backends, such as [TensorFlow](https://www.tensorflow.org/install/).
 * The python packages [numpy, matplotlib and pandas](https://scipy.org/install.html).
-* The [scikit-learn](http://scikit-learn.org/stable/install.html) library.
+* The [scikit-learn](http://scikit-learn.org/stable/install.html) and [pandasql](https://github.com/yhat/pandasql) libraries.
 
 Alternatively, you can use [Anaconda](https://www.anaconda.com/) to create isolated environments and install all the required libraries including python itself without interfering with previous installations. 
 
